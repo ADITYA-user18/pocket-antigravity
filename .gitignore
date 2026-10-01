@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Runtime & Generated Files
+current_url.txt
+logs/
+*.log
+input_images/
+daemon/
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.agents/
